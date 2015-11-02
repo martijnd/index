@@ -1,5 +1,5 @@
 body {
-	background-color:#FFCC80;
+    background-color:#FFCC80;
 }
 
 #menuwrap {
@@ -27,37 +27,38 @@ body {
 }
 
 #menutextdiv {
-	float:left;
+    float:left;
 }
 
 #hamburgerwrap {
-	float:left;
+    float:left;
 }
 
 .hamburger {
-	width:30px;
-	height:4px;
-	background-color:white;
-	margin-left: 40%;
-	position:relative;
+    width:30px;
+    height:4px;
+    background-color:white;
+    margin-left: 40%;
+    position:relative;
 
 }
 #top {
-	margin-top:40%;
-}
-
-#middle {
-	margin-top:30%;
-}
-
-#bottom {
-	margin-top:30%;
-}
-
-#robert {
     margin-top:40%;
 }
 
-#robertpic {
+#middle {
+    margin-top:30%;
+}
+
+#bottom {
+    margin-top:30%;
+}
+
+#duimpje {
+    margin-top: 6%;
+    margin-left: 0.4%;
+    width: 9%;}
+
+#duimpjepic {
     width:100%;
 }

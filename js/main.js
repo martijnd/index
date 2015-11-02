@@ -9,12 +9,17 @@ function resize(){
 };
 
 function fill(){
-	$("#robert").hide();
+	$("#duimpje").hide();
 
 
 $("#menuwrap").click(function(){
 	console.log("clicked menu")
-	$("#robert").fadeIn(500);
+	$("#duimpje").fadeIn(500);
+});
+
+$("#duimpje").click(function(){
+	console.log("clicked duimpje")
+	$("#duimpje").fadeOut(500);
 });
 }
 
