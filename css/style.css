@@ -11,6 +11,7 @@ body {
     top: 11px;
     left: 15px;
     box-shadow: 1px 4px 7px #333;
+    cursor:pointer;
 }
 
 #menutext {
@@ -59,6 +60,7 @@ body {
     margin-left: 0.4%;
     width: 9%;
     position: relative;
+    cursor:pointer;
 }
 
 #duimpjepic {
