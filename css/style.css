@@ -55,10 +55,38 @@ body {
 }
 
 #duimpje {
-    margin-top: 5%;
+    margin-top: 75px;
     margin-left: 0.4%;
-    width: 9%;}
+    width: 9%;
+    position: relative;
+}
 
 #duimpjepic {
     width:100%;
+}
+
+@media all and (max-width: 600px){
+
+    #menuwrap {
+        width:90%;
+        margin-left:auto;
+        margin-right:auto;
+    }
+    #menutext {
+        margin-left:135%;
+    }
+
+    #duimpje {
+        margin-top: 25%;
+        margin-left:auto;
+        margin-right:auto;
+        width: 85%;
+    }
+}
+
+@media all and (min-width:600px){
+
+    #duimpje {
+            min-width:170px;
+    }
 }
