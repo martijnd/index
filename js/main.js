@@ -9,17 +9,26 @@ function resize(){
 };
 
 function fill(){
-	$("#duimpje").hide();
-
 
 $("#menuwrap").click(function(){
 	console.log("clicked menu")
-	$("#duimpje").fadeIn(500);
+    $("#duimpje").delay(250).queue(function(){
+    	$(this).toggleClass('show');
+    	$(this).dequeue();
+
+     $("#guardians").delay(250).queue(function(){
+    	$(this).toggleClass('show');
+    	$(this).dequeue();
+
+    $("#alistar").delay(250).queue(function(){
+    	$(this).toggleClass('show');
+    	$(this).dequeue();
+});
+});
 });
 
-$("#duimpje").click(function(){
-	console.log("clicked duimpje")
-	$("#duimpje").fadeOut(500);
+	$("#top").toggleClass('crossleft');
+	$("#middle").toggleClass('displaynone');  
+	$("#bottom").toggleClass('crossright');   
 });
 }
-

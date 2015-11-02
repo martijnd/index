@@ -2,23 +2,30 @@ body {
     background-color:#FFCC80;
 }
 
+#titelwrap {
+    width:630px;
+    height:60px;
+    display:block;
+    overflow:hidden;
+}
+
 #menuwrap {
     background-color: #EF6C00;
+}
+
+.block {
     width: 170px;
-    height:52px;
-    display: block;
-    position: fixed;
-    top: 11px;
-    left: 15px;
+    height: 50px;
+    float: left;
     box-shadow: 1px 4px 7px #333;
-    cursor:pointer;
+    cursor: pointer;
 }
 
 #menutext {
     vertical-align: top;
     text-transform: uppercase;
     display: inline-block;
-    font-size:1.5em;
+    font-size:1.25em;
     margin-left: 57%;
     margin-top: 22%;
     font-weight: 600;
@@ -43,29 +50,88 @@ body {
     position:relative;
 
 }
+
 #top {
     margin-top:40%;
+    transition: all .25s ease;
 }
 
 #middle {
     margin-top:30%;
+    transition: all .25s ease;
 }
 
 #bottom {
     margin-top:30%;
+    transition: all .25s ease;
 }
 
+#guardians {
+    height:50px;
+    width:170px;
+    float:left;
+    position:relative;
+    display:inline;
+    background-image: url("../img/thumbguard.png");
+    margin-left:60px;
+    opacity: 0;
+    transition: all .25s ease;
+}
+
+.crossleft {
+    margin-top:24px !important;
+    transform:rotate(45deg);
+}
+
+.displaynone {
+    display:none;
+    transition: all .25s ease;
+}
+
+.crossright {
+    margin-top:-4px !important;
+    transform:rotate(135deg);
+}
+
+#guardians.show {
+    opacity:1;
+}
+
+#alistar {
+    height:50px;
+    width:170px;
+    float:left;
+    position:relative;
+    display:inline;
+    background-image: url("../img/thumbalist.png");
+    margin-left:60px;
+    opacity: 0;
+    transition: all .25s ease;
+}
+
+#alistar.show {
+    opacity:1;
+}
+
+
 #duimpje {
-    margin-top: 75px;
-    margin-left: 0.4%;
+    margin-top: 15px;
     width: 9%;
     position: relative;
     cursor:pointer;
+    opacity:0;
+    transition: all .25s ease;
+}
+
+#duimpje.show {
+    opacity:1;
 }
 
 #duimpjepic {
     width:100%;
 }
+
+
 
 @media all and (max-width: 600px){
 
