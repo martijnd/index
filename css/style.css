@@ -1,0 +1,56 @@
+body {
+	background-color:#FFCC80;
+}
+
+#menuwrap {
+    background-color: #EF6C00;
+    width: 170px;
+    height:52px;
+    display: block;
+    position: fixed;
+    top: 11px;
+    left: 15px;
+    box-shadow: 1px 4px 7px #333;
+}
+
+#menutext {
+    vertical-align: top;
+    text-transform: uppercase;
+    display: inline-block;
+    font-size:1.5em;
+    margin-left: 57%;
+    margin-top: 22%;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color:#FFF3E0;
+    font-family:'Myriad Pro';
+}
+
+#menutextdiv {
+	float:left;
+}
+
+#hamburgerwrap {
+	float:left;
+}
+
+.hamburger {
+	width:30px;
+	height:4px;
+	background-color:white;
+	margin-left: 40%;
+	position:relative;
+
+}
+#top {
+	margin-top:40%;
+}
+
+#middle {
+	margin-top:30%;
+}
+
+#bottom {
+	margin-top:30%;
+}
+
