@@ -1,6 +1,9 @@
 $(document).ready(function() {
 	fill();
 	resize();
+	$("#duimpje").hide();
+	$("#guardians").hide();
+	$("#alistar").hide();
 });
 
 function resize(){
@@ -13,15 +16,15 @@ function fill(){
 $("#menuwrap").click(function(){
 	console.log("clicked menu")
     $("#duimpje").delay(250).queue(function(){
-    	$(this).toggleClass('show');
+    	$(this).fadeToggle(500, "swing");
     	$(this).dequeue();
 
      $("#guardians").delay(250).queue(function(){
-    	$(this).toggleClass('show');
+    	$(this).fadeToggle(500, "swing");
     	$(this).dequeue();
 
     $("#alistar").delay(250).queue(function(){
-    	$(this).toggleClass('show');
+    	$(this).fadeToggle(500, "swing");
     	$(this).dequeue();
 });
 });
