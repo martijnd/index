@@ -1,5 +1,5 @@
 body {
-    background-color:#FFCC80;
+    background-color:#FFF3E0;
 }
 
 #titelwrap {
@@ -7,7 +7,8 @@ body {
     height:60px;
     display:block;
     overflow:hidden;
-    position:fixed;
+    position:relative;
+    z-index: 2;
 }
 
 #menuwrap {
@@ -65,23 +66,6 @@ body {
 #bottom {
     margin-top:30%;
     transition: all .25s ease;
-}
-
-
-#duimpje {
-    margin-top: 75px;
-    width: 9%;
-    position: relative;
-    cursor:pointer;
-    opacity: 1;
-}
-
-#duimpje.show {
-    opacity:1;
-}
-
-#duimpjepic {
-    width:100%;
 }
 
 .crossleft {
@@ -154,4 +138,30 @@ body {
 #jfk:hover {
     background-image:url("../img/thumbjfkhover.png");
     transition: all .25s ease;
+}
+
+#bigwrap {
+    margin-top:40px;
+    width:1300px;
+    height:649px;
+    margin-left:200px;
+}
+
+#big {
+    width:100%;
+    height:100%;
+    position: relative;
+    transition: all .5s ease;
+}
+
+.bigguard {
+    background-image:url("../img/bigguard.png");
+}
+
+.bigalist {
+    background-image:url("../img/bigalist.png");
+}
+
+.bigjfk {
+    background-image:url("../img/bigjfk.png");
 }
