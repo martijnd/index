@@ -4,6 +4,7 @@ $(document).ready(function() {
 	$("#duimpje").hide();
 	$("#guardians").hide();
 	$("#alistar").hide();
+	$("#jfk").hide()
 });
 
 function resize(){
@@ -26,6 +27,11 @@ $("#menuwrap").click(function(){
     $("#alistar").delay(250).queue(function(){
     	$(this).fadeToggle(500, "swing");
     	$(this).dequeue();
+
+    $("#jfk").delay(250).queue(function(){
+    	$(this).fadeToggle(500, "swing");
+    	$(this).dequeue();
+});
 });
 });
 });

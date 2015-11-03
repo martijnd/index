@@ -3,7 +3,7 @@ body {
 }
 
 #titelwrap {
-    width:630px;
+    width:100%;
     height:60px;
     display:block;
     overflow:hidden;
@@ -84,17 +84,6 @@ body {
     width:100%;
 }
 
-#guardians {
-    height:50px;
-    width:170px;
-    float:left;
-    position:absolute;
-    display:inline;
-    background-image: url("../img/thumbguard.png");
-    margin-left:200px;
-    opacity: 1;
-}
-
 .crossleft {
     margin-top:24px !important;
     transform:rotate(45deg);
@@ -109,6 +98,18 @@ body {
     margin-top:-4px !important;
     transform:rotate(135deg);
 }
+
+#guardians {
+    height:50px;
+    width:170px;
+    float:left;
+    position:absolute;
+    display:inline;
+    background-image: url("../img/thumbguard.png");
+    margin-left:200px;
+    opacity: 1;
+}
+
 
 #guardians.show {
     opacity:1;
@@ -136,5 +137,21 @@ body {
 
 #alistar:hover {
     background-image:url("../img/thumbalisthover.png");
+    transition: all .25s ease;
+}
+
+#jfk {
+    height:50px;
+    width:170px;
+    float:left;
+    position:absolute;
+    display:inline;
+    background-image: url("../img/thumbjfk.png");
+    margin-left:600px;
+    opacity: 1;
+}
+
+#jfk:hover {
+    background-image:url("../img/thumbjfkhover.png");
     transition: all .25s ease;
 }
